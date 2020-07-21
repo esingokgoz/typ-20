@@ -1,0 +1,744 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="The State Transportation Commission's 2019 Twelve Year Transportation Program (TYP) is Pennsylvania's official mid-range planning tool used to identify and prioritize transportation projects.">
+<meta name="keywords" content="2019 Twelve Year Program, Twelve Year Program, Pennsylvania Twelve Year Program, PA 2019 TYP, TYP, State Transportation Commission, STC, Pennsylvania Transportation Projects, PA Transportation Projects">
+<meta name="author" content="State Transportation Commission">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STC 2020 Twelve Year Program</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/STC_tab_image.png" />
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top" id="navbar">
+	<div class="w3-bar w3-dark-blue w3-card">
+	<!-- <a href="#home"><img class="pdot-logo" src="img/PennDOTColorLogo_RGB.svg" alt="PennDOT Logo"></a> -->
+
+    <!-- Right-sided navbar links -->
+		<div class="w3-right w3-hide-small w3-text-white" id="scroll-spy" >
+			<a href="#welcome" class="w3-bar-item w3-button">WELCOME</a>
+			<a href="#funding" class="w3-bar-item w3-button">FUNDING</a>
+			<a href="#planning" class="w3-bar-item w3-button">PLANNING</a>
+			<a href="#process" class="w3-bar-item w3-button">PROCESS</a>
+			<a href="#projects" class="w3-bar-item w3-button">PROJECTS</a>
+		</div>
+
+		<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</a>
+	</div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-blue w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="sidebar">
+<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close <i class="fa fa-times" aria-hidden="true"></i></a>
+<a href="#welcome" onclick="w3_close()" class="w3-bar-item w3-button">WELCOME</a>
+<a href="#process" onclick="w3_close()" class="w3-bar-item w3-button">PROCESS</a>
+<a href="#outreach" onclick="w3_close()" class="w3-bar-item w3-button">OUTREACH</a>
+<a href="#funding" onclick="w3_close()" class="w3-bar-item w3-button">FUNDING</a>
+<a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+</nav>
+
+<div class="bg-banner">
+	<div class="w3-center" style="padding: 1em 0;">
+		<img src="img/STC.svg" class="logo" alt="State Transportation Commission Logo">
+		<p class="logo-text">State Transportation<br>Commission</p>
+	</div>
+	<div class="title">
+		<h1 class="hero-title"><strong>2021</strong> <br/> TWELVE YEAR PROGRAM</h1>
+		<p class="hero-p">August 2020</p>
+	</div>
+</div>
+
+<!-- Header with full-height image -->
+<header class="bgimg bg1 w3-display-container" id="home" style="border-bottom: none;">
+	
+	
+</header>
+
+<div class="cover-footer">
+	<div>
+			<!-- <p style="color: white;">Anyone who requires an auxiliary aid or service for effective communication, documents in alternative formats or languages, or a modification of policies or procedures to participate in a program, service, or activity of PennDOT, should contact the Bureau of Equal Opportunity at (800) 468-4201 as soon as possible but no later than seven (7) days before scheduled events.</p> -->
+			<img src="img/PennDOT_LogoWhite.png" style="width: 50%;">
+	</div>
+	<div class="w3-text-white hero-names">
+		<span class="orange-text">Tom Wolf</span><br>
+		<span >Governor</span><br><br>
+		<span class="orange-text">Yassmin Gramian, P.E.</span><br>
+		<span>Secretary, PA Department of Transportation</span><br>
+		<span>Chair, State Transportation Commission</span><br><br>
+		<span class="orange-text">Larry S. Shifflet</span><br>
+		<span>Deputy Secretary for Planning</span>
+	</div>
+</div>
+
+<!-- ABOUT -->
+<div class="w3-container w3-offwhite p-5016" >
+	<div class="w3-content">
+		<h1 class="w3-center">ABOUT THE STATE TRANSPORTATION COMMISSION</h1>
+		<p>The Pennsylvania State Transportation Commission (STC) serves as the Pennsylvania Department of Transportation’s (PennDOT) board of directors. The 15 member board evaluates the condition and performance of Pennsylvania’s transportation system and assesses the resources required to maintain, improve, and expand transportation facilities and services. State Law requires PennDOT to update Pennsylvania’s Twelve Year Transportation Program (TYP) every two years for submission to the STC for adoption.</p>
+		<div class="w3-center">
+			<a href="http://talkpatransportation.com/about-stc" target="_blank" class="w3-button w3-xlarge w3-border w3-border-blue">Meet Our Members</a>
+		</div>
+		<br>
+
+	</div>
+
+</div>
+
+<!-- IMAGE 2 -->
+<div class="w3-display-container" style="height: 100%;">
+<div class="fullscreen-video"><video loop="" muted="" autoplay=""><source src="img/loop.mp4" type="video/mp4"></video></div>
+	<div class="get-to-know">
+		
+		<div class="w3-margin-left w3-text-white bg-transbox" >
+			<h3>50<sup>th</sup> Anniversary </h3>
+			<hr>
+			<p>On May 6, 1970, Pennsylvania Act 120 was enacted. This legislation established PennDOT, the STC, and the Transportation Advisory Committee (TAC). This extremely important piece of legislation shifted the transportation focus from highways and bridges to the safe movement of people and goods using all forms of transportation. On May 6, 2020 the 50th anniversary of Act 120 was recognized as a significant milestone for PennDOT, the STC, and TAC!</p>
+		</div>
+	</div>
+</div>
+
+<!-- 3. WELCOME - VIDEO -->
+<div class="w3-container w3-dark-blue p-5016" id="welcome">
+	<div class="w3-content">
+		<h1 class="w3-center w3-text-white">WELCOME FROM THE SECRETARY</h1>
+		<blockquote>
+		<div class="w3-center">
+			I encourage you to learn more about our accomplishments, <br>current funding, and upcoming transportation projects near you.
+		</div>
+	</blockquote>
+		<div class="video-responsive">
+			<!-- <video style="width:100%;" poster="img/poster.jpg" controls>
+			<source src="img/2019TYP.mp4" type="video/mp4"/>
+			<track src="img/captions.vtt" kind="captions" srclang="en" label="English"/>
+			</video> -->
+			<img src="http://via.placeholder.com/900x500?text=900X500+Placeholder+Image" style="width: 100%;">
+		</div>
+		
+
+		<p class="w3-center">Yassmin Gramian, P.E.<br>Secretary, PA Department of Transportation<br>Chairperson, State Transportation Commission</p>
+		
+	</div> 
+</div>
+
+<!-- IMAGE 3 -->
+<div class="w3-display-container bgimg bg3">
+	<div class="w3-display-bottomright w3-text-white photo-credit">This photo needs to change<br>placeholder</div>
+	<div class="get-to-know">
+		<div class="w3-margin-left w3-text-white bg-transbox" >
+			<h3>COVID-19 Response</h3>
+			<hr>
+			<img src="img/penndot.jpg" class="bg3-img">
+			<p style="margin-bottom: -20px; padding-bottom: 5px;">Pennsylvania took quick and decisive action in the spring of 2020 to slow the spread of the Coronavirus Disease 2019 (COVID-19) and protect all Pennsylvanians. Safe and reliable transportation remained just as important, if not more so, during the crisis. As such, it was extremely important to maintain essential services while enacting procedures to limit the spread of the virus. PennDOT temporarily halted all construction projects until plans for worker safety could be developed and implemented. </p>
+			<p>PennDOT also closed Driver License Centers and extended the expiration date for certain driver’s licenses, vehicle registrations, and safety and emissions inspections. Despite having never teleworked, many PennDOT employees quickly shifted to working from home when the offices closed. This included the unprecedented shift of the regional Traffic Management Centers that oversee the daily operations of Pennsylvania’s highways to remote locations.  </p>
+		</div>
+	</div>
+</div>
+
+<!-- 4. TRANSPORTAION FUNDING IN PENNSYLVANIA -->
+<div class="w3-container w3-offwhite p-5016" id="funding">
+	<div class="w3-content">
+		<!-- <h1 class="w3-center w3-text-dark-blue">FUNDING</h1> -->
+		<h3 class="w3-center w3-text-blue">TRANSPORTATION FUNDING IN PENNSYLVANIA</h3>
+		<p>Transportation projects listed in the TYP use a combination of federal, state, and local funding. The available amounts over the twelve years reflect anticipated financial investments based upon legislation, actual and anticipated budgets, and historical trends.</p>
+		
+		<p class="w3-center w3-text-blue w3-large">CLICK BELOW FOR DETAILS ON EACH TOPIC</p>
+		<button class="w3-block w3-left-align accordion">Federal Funding</button>
+			<div class="panel">
+				<p>Authorization legislation determines the amount and category of federal money distributed to states. The end of the most recent legislation, Fixing America’s Surface Transportation (FAST) Act on September 30, 2020 causes uncertainty for the amount of expected federal funding for highways, bridges, and public transit throughout the TYP. The potential bankruptcy of the Federal Highway Trust Fund (HTF) and the lingering effects of the COVID-19 pandemic on the economy only increase the uncertainty. However, the 2021 TYP assumes federal funding levels will remain flat, at 2020 levels, throughout the twelve years. </p>
+				<div class="callout-box" style="margin-bottom: 10px;">
+					<h5 class="w3-center">Federal Highway Trust Fund</h5>
+					<p>The Federal Highway Trust Fund (HTF) is composed of taxes paid at the fuel pump (18.4 cents per gallon on gasoline and 24.4 cents per gallon of diesel fuel) and other excise taxes. The money in the HTF is used for roadway, bridge, and public transit projects. For many years, the tax money coming into the fund has been less than what is allowed to be spent. As a result, Congress must occasionally refill the HTF through other sources of money.</p>
+				</div>	
+			</div>
+		<button class="w3-block w3-left-align accordion">State Funding</button>
+			<div class="panel">
+				<p>The annual state budget process determines the funding amounts available for projects on the TYP through allocations from several monetary sources:</p>
+				<ul>
+					<li>Motor License Fund – Highway, bridge and safety projects on the TYP; county and municipal road and bridge improvements; and Pennsylvania State Police Operations</li>
+					<li>Public Transportation Trust Fund – Mass transit operating expenses and asset improvements</li>
+					<li>Multimodal Transportation Fund – Grants for all modes</li>
+					<li>Public Transportation Assistance Fund – Mass transit operating expenses and asset management projects</li>
+					<li>General Fund – Aviation and rail freight projects</li>
+				</ul>
+				<p>Overall funding at the state level is also uncertain throughout the TYP due to declining revenue from reduced gas tax receipts, inflationary pressures, and impacts of the COVID-19 pandemic.</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">Local Funding</button>
+			<div class="panel">
+				<p>Local municipalities, private entities, toll authorities, and transit operators also provide funds that are accounted for in the TYP. These funds are most often included when a match is required for state or federal funds.</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">2021 Funding Levels</button>
+			<div class="panel">
+				<p>The 2021 TYP contains over !!!!$TBD!!!! in projects involving all modes of transportation. The table below shows the distribution of funding in millions of dollars for the first four years, the second four years, and the third four years, and the total TYP.</p>
+				<h1>!!INSERT TABLE HERE!!</h1>
+			</div>
+			<br>
+		<div class="callout-box">
+			<!-- <h3 class="w3-text-light-blue" >PennDOT’s Standard Accessibility Statement</h3> -->
+			<h5><a href="https://talkpatransportation.com/perch/resources/tac-2019-transportation-funding-risks-report.pdf">Transportation Advisory Committee Transportation Funding Risks Report</a> </h5>
+			<p>In 2019 the Transportation Advisory Committee (TAC) released its “Risks to Transportation Funding in Pennsylvania” report. The report identified and analyzed several potential threats to the funding that supports the TYP. The impacts and implications identified in the report underscore the uncertainty involved in transportation funding, especially considering the unanticipated revenue pressures experienced due to the COVID-19 pandemic. 
+				</p>
+		</div>
+	
+	</div>
+</div>
+
+<!-- IMAGE 4 -->
+<div class="w3-display-container bgimg bg44">
+	<div class="get-to-know">
+		<div class="w3-margin-left w3-text-white bg-transbox" >
+			<h3>Transportation Advisory Committee</h3>
+			<hr>
+			<p style="margin-bottom: -20px; padding-bottom: 5px;">In addition to establishing PennDOT and the STC, Act 120 of 1970 also created the Transportation Advisory Committee (TAC). The 30 member TAC is comprised of 18 members of the public, 4 members of the Pennsylvania Legislature, and leaders from several state agencies. </p>
+			<p>The TAC conducts in-depth studies on key transportation issues to advise the planning process including the biennial Transportation Performance Report (TPR). View TAC <a href="https://www.talkpatransportation.com/advisory-committees/tac-reports-studies" target="_blank" alt="Transportation Advisory Committee Reports and Studies">studies and reports</a>.</p>
+		</div>
+	</div>
+</div>
+
+<!-- 5. Transportation Planning in Pennsylvania -->
+<div class="w3-container w3-offwhite p-5016"  id="planning">
+	<div class="w3-content">
+		<h3 class="w3-center w3-text-dark-blue">TRANSPORTATION PLANNING IN PENNSYLVANIA</h3>
+		<div class="w3-row-padding w3-center">
+			<div class="w3-col m3">
+				<img src="img/thumb/out1.jpg" class="thumbnail w3-hide-small" alt="" >
+			</div>
+			<div class="w3-col m3">
+				<img src="img/thumb/out2.jpg" class="thumbnail  w3-hide-small" alt="" >
+			</div>
+			<div class="w3-col m3">
+				<img src="img/thumb/out3.jpg" class="thumbnail w3-hide-small" alt="" >
+			</div>
+			<div class="w3-col m3">
+				<img src="img/thumb/out4.jpg" class="thumbnail w3-hide-small" alt="" >
+			</div>
+		</div>
+		<p class="w3-center w3-text-blue w3-large">CLICK BELOW FOR DETAILS ON EACH PROCESS</p>
+		<button class="w3-block w3-left-align accordion">Twelve Year Program</button>
+			<div class="panel">
+				<p>The Twelve Year Transportation Program (TYP) is Pennsylvania’s official mid-range planning tool and is required by Act 120 of 1970. The TYP identifies and prioritizes projects and funding over a 12-year period. The first four years is the federally required Statewide Transportation Improvement Program (STIP) and regional Transportation Improvement Programs (TIPs).</p>
+				<p>The TYP is updated every two years in a collaborative effort between PennDOT, the STC, regional Metropolitan and Rural Planning Organizations (MPOs and RPOs), and the public. The TYP represents all modes and means of transportation including highways, bridges, public transit, aviation, and rail, as well as active transportation such as bicycling and walking. </p>
+			</div>
+		<button class="w3-block w3-left-align accordion">Statewide Long Range Transportation Plan</button>
+			<div class="panel">
+				<p>The Statewide Long Range Transportation Plan (LRTP) is PennDOT’s largest and most comprehensive statewide transportation plan. It covers a 25-year forecast period. The Statewide LRTP is used to develop transportation policies, visions, and goals for the Commonwealth. The TYP must align with the Statewide LRTP which is updated every five to six years. The 2045 Statewide LRTP and Comprehensive Freight Movement Plan is expected to be adopted in 2021.</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">Regional Long Range Transportation Plan</button>
+			<div class="panel">
+				<p>Each MPO and RPO develops their own LRTP. Each regional LRTP includes a list of transportation projects and assigns funding based on the amount of funding the region expects to receive over 20 years. Each regional LRTP is updated every four or five years to reflect new data and changes to regional priorities in transportation investments.</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">Statewide Transportation Improvement Program</button>
+			<div class="panel">
+				<p>The projects listed in the first four years of the TYP are the federally-required Statewide Transportation Improvement Program (STIP). The STIP includes the <a href="https://www.talkpatransportation.com/transportation-planning/STIP" target="_blank">24 individual regional TIPs</a> representing each MPO, RPO, and one independent county. It also includes the two statewide Programs: Interstate Management Program and statewide initiatives. Each TIP includes a list of projects with funding assigned for each year. In Pennsylvania, MPOs and RPOs update their TIPs every two years during the TYP update process. MPOs and RPOs conduct public involvement activities when developing their TIPs. The public involvement programs are defined in each regions’ Public Participation Plan.</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">Public Participation Plan</button>
+			<div class="panel">
+				<p>The <a href="http://www.dot.state.pa.us/public/PubsForms/Publications/PUB 823.pdf" alt="Penndot site">Public Participation Plan (PPP)</a> provides guidance on opportunities for all people to contribute to the updates of the LRTP, TYP, and STIP. Pennsylvania recently updated its PPP</a> with the help of stakeholders throughout the state. Each MPO and RPO has their own Public Participation Plan that is regularly updated. </p>
+			</div>
+		<br>
+		<div class="callout-box" style="margin-top: 15px;">
+			<h3 class="w3-text-light-blue" >Transportation Performance Management</h3>
+			<p>Transportation Performance Management (TPM) is a strategic approach that uses system information to make informed investment and policy decisions to achieve national, state, and local goals for the reliable, predictable, and safe movement of people and goods. Projects listed in the TYP are aligned with these goals in order to create a better performing transportation system focused on safe, connected, and productive communities. </p>
+		</div>
+
+	</div>
+</div>
+
+<!-- IMAGE 5 -->
+<div class="w3-display-container bgimg bg5">
+	<div class="get-to-know">
+		<div class="w3-margin-left w3-text-white bg-transbox" >
+			<h3><a href="https://www.penndot.gov/ProjectAndPrograms/Planning/Pages/PennDOT-Connects.aspx">PennDOT Connects</a></h3>
+			<hr>
+			<p style="margin-bottom: -20px; padding-bottom: 5px;">Each year the American Association of State Highway Transportation Officials (AASHTO), American Automobile Association (AAA), and the U.S. Chamber of Commerce hold American’s Transportation Awards competition to recognize projects and programs throughout the country. In 2019, PennDOT Connects won in the Quality of Life/Community Development Small Project category and was named one of the Top 12 projects nationwide.</p>
+			<p>PennDOT Connects engages community stakeholders, planning organizations, and local governments through collaboration meetings and training. The purpose of the initiative is to make sure community needs are identified at each phase of the planning process. PennDOT is committed to improving Pennsylvania’s transportation system through collaborative planning. </p>
+		</div>
+	</div>
+</div>
+
+<!-- 6. Twelve Year Program Process -->
+<div class="w3-container w3-dark-blue p-5016"  id="process">
+	<div class="w3-content">
+		<h1 class="w3-center">THE TWELVE YEAR PROGRAM PROCESS</h1>
+		<p>The TYP update process takes place over a two year period, beginning with the <a href="https://www.talkpatransportation.com/2019TPR/">Transportation Performance Report</a> (TPR) that details the condition of  transportation in Pennsylvania. This is immediately followed by a call to action for the public to provide feedback on transportation priorities and needs. More information on public participation is provided below.  </p>
+		<div class="w3-center">
+			<a href="http://www.talkpatransportation.com/2019TYP/infographic/index.html" target="_blank" class="w3-button w3-xlarge w3-border w3-border-light-blue">The TYP Process</a>
+		</div>
+		<br>
+		<div class="w3-row-padding w3-center">
+				<div class="w3-col m3">
+					<img src="img/thumb/1.jpg" class="thumbnail w3-hide-small" alt="Railroad in Reading, Berks County" >
+				</div>
+				<div class="w3-col m3">
+					<img src="img/thumb/2.jpg" class="thumbnail w3-hide-small" alt="Fort Pitt Bridge, Allegheny County" >
+				</div>
+				<div class="w3-col m3">
+					<img src="img/thumb/3.jpg" class="thumbnail w3-hide-small" alt="A view of Erie from the convention center, Erie County" >
+				</div>
+				<div class="w3-col m3">
+					<img src="img/thumb/4.jpg" class="thumbnail w3-hide-small" alt="Schuylkill River Trail, Berks County" >
+				</div>
+		</div>
+		<h3 class="w3-text-light-blue">Planning and Prioritizing Projects</h3>
+		<p>The TYP lists projects based on:
+			<ul>
+				<li>Delivery schedules</li>
+				<li>Expected funding availability</li>
+				<li>Regional and statewide goals and targets for infrastructure performance and condition</li>
+				<li>Public input</li>
+			</ul>
+		</p>
+		<p>Projects are organized by the associated MPO or RPO and further described by transportation mode and county. Transportation project costs are allocated over one or more four-year periods based on the anticipated schedule of the project. The TYP also includes line items by funding category which are typically seen in the second and third four-year program periods. As new projects are identified, the line items are adjusted to reflect the detailed phases and costs associated to advance the project, all within fiscal constraints.</p>
+		<h3 class="w3-text-light-blue">Transportation Program Review and Approval</h3>
+		<p>PennDOT submits the TYP to the STC every two years. The STC reviews and votes to adopt the TYP. PennDOT then sends the STIP (the first four years of the TYP) to the Federal Highway Administration, the Federal Transit Administration, and the U.S. Environmental Protection Agency for review and approval prior to the start of the federal fiscal year on October 1.</p>
+		<p class=" w3-center w3-large "><strong class="w3-text-orange">Transportation Program Development Process </strong><br> Twelve Year Program Cycle</p>
+		<div class="w3-responsive w3-card ">
+			<table class="w3-table w3-centered w3-border-white" >
+				<tr class="w3-light-gray w3-border-white" >
+					<th class="w3-border bg-darkgray">2021</th>
+					<th class="w3-border bg-darkgray">2022</th>
+					<th class="w3-border bg-darkgray">2023</th>
+					<th class="w3-border bg-darkgray">2024</th>
+					<th class="w3-border bg-lightgray">2025</th>
+					<th class="w3-border bg-lightgray">2026</th>
+					<th class="w3-border bg-lightgray">2027</th>
+					<th class="w3-border bg-lightgray">2028</th>
+					<th class="w3-border bg-darkgray">2029</th>
+					<th class="w3-border bg-darkgray">2030</th>
+					<th class="w3-border bg-darkgray">2031</th>
+					<th class="w3-border bg-darkgray">2032</th>
+				</tr>
+				<tr class="w3-blue">
+				<td colspan="4" class="w3-border" style="background-color: #25B0E5;">1st Four Years (TIP & STIP)</td>
+				<td colspan="4" class="w3-border" style="background-color: #203062;">2nd Four Years</td>
+				<td colspan="4" class="w3-border" style="background-color: #25B0E5;">3rd Four Years</td>
+				</tr>
+				<tr class="w3-border">
+				<td colspan="12" class="w3-orange w3-border-white">Twelve Year Program (TYP)</td>
+				</tr>
+			</table>
+		</div><br><br>
+		
+	</div>
+</div>
+
+<!-- IMAGE 6 -->
+<div class="w3-display-container bgimg bg2">
+	<div class="w3-display-bottomright w3-text-white photo-credit">Photo caption</div>
+	<div class="get-to-know">
+		<div class="w3-margin-left w3-text-white bg-transbox">
+			<h3>Metropolitan and Rural Planning Organizations</h3>
+			<hr>
+			<p style="margin-bottom: -20px; padding-bottom: 5px;"><strong>Do you know your Metropolitan or Rural Planning Organization?</strong> </p>
+			<p style="margin-bottom: -20px; padding-bottom: 5px;">Pennsylvania's statewide transportation planning effort begins at the local level with regional plans and programs. Pennsylvania has 19 Metropolitan Planning Organizations (MPOs), 4 Rural Planning Organizations (RPOs), and one independent county (Wayne County). Click on your county to see which planning organization represents you.</p>
+			<div id="mpoMap" style="height:350px;background:transparent;"></div>
+		</div>
+		
+
+	</div>
+</div>
+
+<!-- 7. Public Participation -->
+<div class="w3-container w3-offwhite p-5016"  id="outreach">
+	<div class="w3-content">
+		<!-- <h1 class="w3-center w3-text-orange">Outreach</h1> -->
+		<h3 class="w3-text-blue w3-center">PUBLIC PARTICIPATION</h3>
+		<div class="w3-row-padding w3-center">
+			<div class="w3-col m3">
+				<img src="img/thumb/public-1.jpg" class="thumbnail w3-hide-small" alt="Railroad in Reading, Berks County" >
+			</div>
+			<div class="w3-col m3">
+				<img src="img/thumb/public-2.jpg" class="thumbnail w3-hide-small" alt="Fort Pitt Bridge, Allegheny County" >
+			</div>
+			<div class="w3-col m3">
+				<img src="img/thumb/public-3.jpg" class="thumbnail w3-hide-small" alt="A view of Erie from the convention center, Erie County" >
+			</div>
+			<div class="w3-col m3">
+				<img src="img/thumb/public-4.jpg" class="thumbnail w3-hide-small" alt="Schuylkill River Trail, Berks County" >
+			</div>
+	</div>
+
+		<p>Public involvement is an important part of the TYP update process. Every two years, the STC holds a Public Comment Period to request feedback on local, regional, and statewide transportation issues and priorities. All responses are compiled, documented, and analyzed for use in the TYP, regional TIPs, and regional LRTPs. Public feedback plays a key role in the decision-making process for identifying and funding transportation projects.</p>
+		
+		<div class="" style="width: 80%; margin: auto auto ; padding: 10px;">
+			<p class="w3-center w3-text-dark-blue">During the 2021 TYP Update Public Comment Period, 6,398 public participants completed the online transportation survey. Survey respondents identified nearly 2,500 transportation concerns – 425 of which were already targeted by PennDOT’s planned projects.</p>
+		</div>
+
+		<p class="w3-center w3-text-blue w3-large">CLICK BELOW FOR DETAILS ON EACH TOPIC</p>
+		<button class="w3-block w3-left-align accordion">2021 TYP Outreach Process</button>
+			<div class="panel">
+				<p>The 2021 TYP Public Comment Period included a Transportation Survey and an online public meeting.</p>
+				<img src="img/thumb/outreach.png" class="w3-hide-small w3-margin-left" style="float:right; width: 400px; height: 256px;" alt="">
+				<ol>
+					<li><strong>The Transportation Survey invited participants to:</li></strong>
+					<ul>
+						<li>Identify preferred modes of transportation and frequency of use</li>
+						<li>Rank transportation system priorities</li>
+						<li>Develop a multimodal transportation budget</li>
+						<li>Map transportation concerns throughout the state</li>
+						<li>Voluntarily provide demographic information</li>
+					</ul>
+					<li><strong>The online public meeting:</strong></li>
+					<ul>
+						<li>Aired live on a webinar platform and Facebook Live</li>
+						<li>Included a live question and answer session with PennDOT and STC leadership</li>
+						<li>Was recorded and posted on the STC website for viewing after the live event  </li>
+					</ul>
+				</ol>
+				<p>The STC and PennDOT are committed to an effective and inclusive public participation program. The outreach effort is evaluated following each campaign to make sure all users of Pennsylvania’s transportation system have adequate and equal opportunity to participate.</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">TYP Update Public Comment Period</button>
+			<div class="panel">
+				<a href="https://talkpatransportation.com/2019TPR/" target="_blank" title="2017 Transportation Performance Report"><img src="img/TPR.jpg" class="w3-hide-small w3-margin-left" style="float:right;margin-top: 15px; height: 200px; margin-bottom: 50px" alt="Link to Transportation Performance Report"></a>
+				<p>The 2019 TPR was released by the STC on February 21, 2019 with the 2021 TYP Update Public Comment Period starting a few weeks later on March 11, 2019 and continuing through April 26, 2019</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">Online Public Meeting</button>
+			<div class="panel">
+				<img src="img/stc opm.png" class="w3-hide-small" style="float:right;margin-top: 20px; margin-bottom: 10px; width: 400px; height: 200px; margin-left: 20px;" alt="Computer with the Online Transportation Survey">
+				<p >The online public meeting was conducted on Wednesday, March 20, 2019. The one-hour meeting featured the findings of the 2019 TPR and a half-hour interactive question and answer session. PennDOT and STC provided answers to all questions received, including those not answered during the online meeting. All questions and responses provided were posted on www.TalkPATransportation.com. There were nearly 2,200 live webinar participants (assuming one person per streaming device). </p>
+				<div class="w3-bar w3-center">
+					<a href="https://www.talkpatransportation.com/public-meetings/typ-public-meeting" target="_blank" class="w3-button w3-border w3-border-blue w3-mobile">Meeting Recorded Video</a>
+					<a href="https://talkpatransportation.com/perch/resources/admin/2019-online-public-meeting-questions-and-answers.pdf" target="_blank" class="w3-button w3-border w3-border-blue w3-mobile">Meeting Questions & Answers</a>
+				</div><br>
+			</div>
+		<button class="w3-block w3-left-align accordion">Transportation Survey</button>
+			<div class="panel">
+				<img src="img/thumb/survey.png" class="w3-hide-small" style="float:right;margin-top: 30px; width: 400px; height: 250px;" alt="Computer with the Online Transportation Survey">
+				<p>There were 6,398 participants who completed the online survey. Respondents identified 2,458 transportation issues. Of these issues, 425 of the transportation concerns identified by the respondents were already being addressed on the existing TYP. Survey respondents were recorded from each MPO and RPO region. Details for each section are provided below.</p>
+			</div>
+		<button class="w3-block w3-left-align accordion">Analyze, Summarize and Share</button>
+			<div class="panel">
+				<p>PennDOT and the STC summarized the public feedback and shared it with MPOs and RPOs in advance of the development of their regional TIPs. The survey analysis is posted on the STC website results page.</p>
+				<div class="w3-bar w3-center">
+					<a href="https://www.talkpatransportation.com/tell-us/survey-results" target="_blank" class="w3-button w3-border w3-border-blue w3-mobile">What We Heard</a>
+					<a href="https://talkpatransportation.com/perch/resources/2019-statewide-all.pdf" target="_blank" class="w3-button w3-border w3-border-blue w3-mobile">Survey Summary</a>
+					<a href="https://www.talkpatransportation.com/2019SurveyResults/map.html" target="_blank" class="w3-button w3-border w3-border-blue w3-mobile">Survey Results Map</a>
+				</div>
+			</div>
+		<br>
+		<div class="callout-box" style="width: 70%; margin: 15px auto 0; padding: 20px;">
+			<img src="img/collaborative.png" class="collabrative">
+			<p class="w3-center w3-text-light-blue">Stay engaged and informed about transportation planning on PennDOT's social media sites!</p>
+			<div><a href="https://www.facebook.com/PennsylvaniaDepartmentofTransportation/" target="_blank"><img src="img/fb-icon50x50.png" ></a> &nbsp;<a href="https://twitter.com/PennDOTNews" target="_blank"><img src="img/twitter-icon50x50.png" ></a>&nbsp;<a href="https://www.youtube.com/channel/UC4OGHCwtxyBbRojVbW-HXcg" target="_blank"><img src="img/youtube-icon50x50.png" ></a>&nbsp;<a href="https://www.instagram.com/pennsylvaniadot/?hl=en" target="_blank"><img src="img/instagram-icon50x50.png" ></a>&nbsp;<a href="https://www.linkedin.com/company/penndot/" target="_blank"><img src="img/linkedin-icon50x50.png" ></a></div>
+			<br>
+		</div>
+
+	</div>
+</div>
+
+<!-- IMAGE 7 -->
+<div class="w3-display-container bgimg bg7">
+	<div class="get-to-know">
+		<div class="w3-margin-left w3-text-white bg-transbox" >
+			<h3>Traffic Incident Management</h3>
+			<hr>
+			<p>PennDOT, Pennsylvania Turnpike Commission (PTC), and Penn State University (PSU) began a partnership in 2018 to explore and advance a state-of-the-art training and testing facility called the Pennsylvania Safety Transportation and Research Track (PennSTART). PennSTART will address the transportation safety and operational needs of Pennsylvania: traffic incident management (TIM); tolling and intelligent transportation systems (ITS) technology; work zones; commercial vehicles; transit vehicles; and connected and automated vehicles. PennSTART as well as Pennsylvania Traffic Incident Management Enhancement (PennTIME), an organization of stakeholders involved in Transportation Incident Management, evolved from a 2014 <a href="https://talkpatransportation.com/assets/TAC/Traffic Incident Management Final Report Feb. 2014.pdf">Traffic Incident Management study</a> completed by the State Transportation Advisory Committee. </p>
+		</div>
+	</div>
+</div>
+
+<!-- 8. Explore Projects -->
+<div class="w3-container w3-offwhite p-5016"  id="projects">
+	<div class="w3-content">
+		<h3 class="w3-center w3-text-blue">EXPLORE THE PROJECTS</h3>
+		<p class="w3-center"><em>For optimal experience viewing PennDOT OneMap, please use Chrome or updated IE/Edge.</em></p>
+		<p>The Twelve Year Program list of projects has been broken up by county to make searching easy. Please <strong class="w3-text-orange">click on a county below</strong> to view the list of projects for that county. The Interstate and Statewide projects are grouped separately and can be viewed from the buttons below. Search and click the list to view funding details. Other resources for exploring transportation projects include: <a href="https://gis.penndot.gov/paprojects/PAProjects.aspx" target="_blank">PA Transportation Projects</a> and <a href="https://www.dot7.state.pa.us/OneMap" target="_blank">PennDOT One Map</a>.</p>
+		<div class="w3-bar w3-center">
+			<div class="w3-button w3-border w3-border-blue w3-mobile" id="key-to-the-typ-open">A key to the TYP</div>
+			<div class="w3-button w3-border w3-border-blue w3-mobile" id="view-interstate-typ">View Interstate</div>
+			<div class="w3-button w3-border w3-border-blue w3-mobile" id="view-statewide-typ">View Statewide</div>
+		</div>
+		<div id="map" style="height:350px;background-color:#EFEDEE"></div>
+		<div id="list-div" style="height:268px;display:none;margin-bottom:82px"></div>
+	</div>
+</div>
+
+<!-- IMAGE 8 -->
+<div class="w3-display-container bgimg bg8">
+	<div class="get-to-know">
+		<div class="w3-margin-left w3-text-white bg-transbox" >
+			<h3><a href="https://www.dmv.pa.gov/REALID/Pages/default.aspx">REAL ID</a></h3>
+			<hr>
+			<p style="margin-bottom: -20px; padding-bottom: 5px;">Beginning October 1, 2021, Pennsylvanians will need a REAL ID-compliant driver’s license, photo ID card, or another form of federally-acceptable identification (such as a valid passport or military ID) to board a domestic commercial flight or enter a federal building or military installation that requires ID. PennDOT began issuing REAL IDs on March 1, 2019 and issued over 800,000 within the first year.</p>
+			<p>The REAL ID initiative is required by both federal and state legislation. PennDOT worked with Homeland Security, the American Association of Motor Vehicle Administrators, and the Social Security Administration to enhance the integrity and security of state-issued driver licenses and identification cards. Real IDs are intended to aid in fighting terrorism and further reduce the risk for fraud.</p>
+		</div>
+	</div>
+</div>
+
+<!-- 9. CUSTOMER RESOURCES -->
+<div class="w3-container w3-dark-blue p-5016" >
+	<div class="w3-content">
+		<h1 class="w3-center w3-text-white">Customer Resources</h1>
+		<!-- <h3 class="w3-text-light-blue">Explore the Details of Projects in Your Neighborhood</h3> -->
+		<p>PennDOT has deployed several online interactive tools to map and provide information on its various transportation projects throughout the Commonwealth. Through the  <a href="http://www.projects.penndot.gov/projects/PAProjects.aspx" target="_blank">PA Transportation Projects</a>, <a href="https://www.dot7.state.pa.us/OneMap" target="_blank">PennDOT One Map</a> and the <a href="https://data-pennshare.opendata.arcgis.com/" target="_blank">Open Data Portal</a> system websites, PennDOT can help you locate projects and stay engaged.</p>
+		
+		<div class="w3-bar w3-center">
+			<a href="https://gis.penndot.gov/paprojects/PAProjects.aspx" target="_blank" class="w3-button w3-border w3-border-light-blue w3-mobile">PA Transportation Projects</a>
+			<a href="https://www.dot7.state.pa.us/OneMap" target="_blank" class="w3-button w3-border w3-border-light-blue w3-mobile">PennDOT One Map</a>
+			<a href="https://data-pennshare.opendata.arcgis.com/" target="_blank" class="w3-button w3-border w3-border-light-blue w3-mobile">Open Data Portal</a>
+		</div>
+		<h3 class="w3-text-light-blue">Contact</h3>
+		<p>PennDOT’s Center for Program Development and Management (Program Center) under the Office of Planning is responsible for developing, managing, and updating the Commonwealth’s TYP for highways and bridges, mass transit systems, airports, and rail freight. It also coordinates with county and regional agencies on transportation long-range planning and short-range programming (TIP/STIP) issues. Members of the Program Center also serve as the Executive Staff to the STC. </p>
+		<p>
+			TYP Inquiries:<br>
+			<i class="fa fa-phone" aria-hidden="true"></i> (717) 783-2262<br>
+			<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:RA-PennDOTSTC@pa.gov" target="_top">RA-PennDOTSTC@pa.gov</a>
+		</p>
+		
+		<!-- <table class="w3-table " style="margin: 5% 5%;">
+			<tr >
+				<td class="w3-center"><img src="https://via.placeholder.com/150"><br>
+					Larry S. Shifflet <br>
+					PennDOT Office of Planning,<br>
+					Deputy Secretary</td>
+				<td class="w3-center"><img src="https://via.placeholder.com/150"><br>
+					Brian D. Hare, P.E.<br>
+					Director, PennDOT Center for Program<br>
+					Development and Management</td>
+				<td class="w3-center"><img src="https://via.placeholder.com/150"><br>
+					Mark J. Tobin<br>
+					Twelve Year Program<br>
+					</td>
+			</tr>
+			<tr>
+				<td class="w3-center"><img src="https://via.placeholder.com/150"><br>
+					Terry Pinder<br>
+					Public Outreach Process<br>
+					</td>
+				<td class="w3-center"><img src="https://via.placeholder.com/150"><br>
+					Brian Sharkey <br>
+					Data Inquiries<br>
+					</td>
+				<td class="w3-center"><img src="https://via.placeholder.com/150"><br>
+					Abdoul Ahmed Saidou <br>
+					Meeting Coordination<br>
+					</td>
+			</tr>
+		</table> -->
+
+		<div class="resources">
+            <div class="w3-center"><img src="https://via.placeholder.com/150"><br>
+				Larry S. Shifflet <br>
+				PennDOT Office of Planning,<br>
+				Deputy Secretary
+			</div>
+            <div class="w3-center"><img src="https://via.placeholder.com/150"><br>
+				Brian D. Hare, P.E.<br>
+				Director, PennDOT Center for Program<br>
+				Development and Management
+			</div>
+			<div class="w3-center"><img src="https://via.placeholder.com/150"><br>
+				Mark J. Tobin<br>
+				Twelve Year Program<br>
+			</div>
+			<div class="w3-center"><img src="https://via.placeholder.com/150"><br>
+				Terry Pinder<br>
+				Public Outreach Process<br></div>
+            <div class="w3-center"><img src="https://via.placeholder.com/150"><br>
+				Brian Sharkey <br>
+				Data Inquiries<br></div>
+            <div class="w3-center"><img src="https://via.placeholder.com/150"><br>
+				Abdoul Ahmed Saidou <br>
+				Meeting Coordination<br></div>
+        </div>
+
+		<div >
+			<img src="img/thankyou 1.5.png" class="thankyou">
+			<h3 class="w3-text-light-blue"><strong>Thank you to all who participated in the 2021 TYP update.</strong> </h3>
+			<p>The website, <a href="http://www.talkpatransportation.com/" target="_blank">www.TalkPATransportation.com</a>, contains many resources about transportation planning. If you have any questions or comments, please use the email address or phone number listed above. </p>
+			<p class="w3-center">General Inquiries: (717) 783-2262 &nbsp; &nbsp; &nbsp; PA-PennDOTSTC@pa.gov</p>
+		</div>
+	</div>
+</div>
+
+<!-- IMAGE 9 -->
+<!-- <div class="w3-display-container bgimg bg9">
+	<div class="w3-display-bottomright w3-text-white photo-credit">Pedestrian Bridge in Mifflintown, Juniata County</div>
+</div> -->
+
+<!-- Footer -->
+<footer class="w3-center w3-light-blue w3-padding-64" >
+	<img src="img/STC.svg" style="height: 140px;" alt="State Transportation Commission Logo">
+	<br><a href="http://www.talkpatransportation.com/" target="_blank" style="text-decoration: none;">State Transportation<br>Commission</a>
+	<p>August 2020<br>
+	© Commonwealth of Pennsylvania</p>
+	<a href="#home" class="w3-button w3-white"><i class="fa fa-arrow-up w3-margin-right" aria-hidden="true"></i>To the top</a>
+</footer>
+
+
+<!--MPMS MODAL-->
+<div id="modal-mpms" class="w3-modal">
+	<div class="w3-modal-content w3-card">
+		<header class="w3-container w3-blue">
+			<span class="w3-button w3-display-topright close-modal"><i class="fa fa-times" aria-hidden="true"></i></span>
+			<p>Project Funding Estimate</p>
+		</header>
+		<div class="w3-container" id="modal-mpms-content">
+		</div>
+		<footer class="w3-container w3-blue">
+			<a class="w3-button w3-left" id="project-report-button" target="_blank">Project Report</a>
+			<div class="w3-button w3-right close-modal">OK</div>
+		</footer>
+    </div>
+</div>
+<!--KEY TO TYP MODAL-->
+<div id="key-to-the-typ" class="w3-modal" onclick="this.style.display='none'">
+	<div class="w3-modal-content w3-card">
+		<header class="w3-container w3-blue">
+			<span class="w3-button w3-display-topright close-modal"><i class="fa fa-times" aria-hidden="true"></i></span>
+			<p>A Key to the <span class="w3-text-orange">Twelve Year Program</span></p>
+		</header>
+		<div class="w3-container">
+			<p>The following is an explanation of codes used in the Twelve Year Program project lists.</p>
+				<div class="w3-responsive w3-card">
+					<table class="w3-table-all">
+						<tr class="w3-blue">
+							<th colspan="2">Project Listing</th>	
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>Project ID</strong></td>
+							<td>A unique project identification number used in the database</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>Title</strong></td>
+							<td>A brief name given to the project, often referred to as the project's "short title"</td>
+						</tr>
+												
+					</table>
+				</div>
+				<br>
+				<div class="w3-responsive w3-card">
+					<table class="w3-table-all">
+						<tr class="w3-blue">
+							<th colspan="2">Mode Icons</th>	
+						</tr>
+						<tr>
+							<td class="table-first-col"><i class='fa fa-plane' aria-hidden="true"></i></td>
+							<td>Aviation Project</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><i class='fa fa-road' aria-hidden="true"></i></td>
+							<td>Highway or Bridge Project</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><i class='fa fa-train' aria-hidden="true"></i></td>
+							<td>Rail Freight Project</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><i class='fa fa-bus' aria-hidden="true"></i></td>
+							<td>Transit Project</td>
+						</tr>						
+					</table>
+				</div>
+				<br>
+				<div class="w3-responsive w3-card">
+					<table class="w3-table-all">
+						<tr class="w3-blue">
+							<th colspan="2">Period</th>	
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>First</strong></td>
+							<td>First Four Years - 2021 to 2024</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>Second</strong></td>
+							<td>Second Four Years - 2025 to 2028</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>Third</strong></td>
+							<td>Third Four Years - 2029 to 2032</td>
+						</tr>	
+					</table>
+				</div>
+				<br>
+				<div class="w3-responsive w3-card">
+					<table class="w3-table-all">
+						<tr class="w3-blue">
+							<th colspan="2">Costs</th>	
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>Study</strong></td>
+							<td>Projects that are studies or research projects</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>PE</strong></td>
+							<td>Preliminary engineering phase of the project development</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>FD</strong></td>
+							<td>Final Design phase of the project development</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>UTL</strong></td>
+							<td>Utility relocations (electric, telecommunications, mechanical)</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>ROW</strong></td>
+							<td>Right-of-way phase of the project</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>CON</strong></td>
+							<td>Construction phase of the project</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>PRA</strong></td>
+							<td>Planning and research or administrative projects</td>
+						</tr>
+						<tr>
+							<td class="table-first-col"><strong>Total</strong></td>
+							<td>Total project cost</td>
+						</tr>						
+					</table>
+				</div>
+				<br>
+		</div>
+		<footer class="w3-container w3-blue">
+			<div class="w3-button w3-right close-modal">OK</div>
+		</footer>
+    </div>
+</div>
+<!-- Modal for full size images on click-->
+<div id="modal-thumb" class="w3-modal" onclick="this.style.display='none'">
+	<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+		<div class="w3-display-container">
+			<img id="img" class="w3-image">
+			<div class="w3-button w3-large w3-blue w3-display-topright" title="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+			<div class="w3-display-bottomright w3-text-white photo-credit" id="caption"></div>
+		</div>
+	</div>
+</div>
+<!--GET TO KNOW MODAL-->
+<div id="modal-get-to-know" class="w3-modal" onclick="this.style.display='none'">
+	<div class="w3-modal-content w3-card" style="max-width:550px;">
+		<header class="w3-container w3-blue">
+			<span class="w3-button w3-display-topright close-modal"><i class="fa fa-times" aria-hidden="true"></i></span>
+			<!-- <p>Our <span class="w3-text-orange">Planning Partner</span></p> -->
+		</header>
+		<div class="w3-container" id="modal-get-to-know-content">
+		</div>
+		<footer class="w3-container w3-blue">
+			<div class="w3-button w3-right close-modal">OK</div>
+		</footer>
+    </div>
+</div>
+
+
+<!--JAVASCRIPT-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+<script src="assets/turf516.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/explore.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+[{
+        "LINK": "<a href='http://www.crcog.net/index.asp?Type=B_BASIC&SEC=%7BAC4A0175-4ED9-49A9-9935-6F9821BEC810%7D' target='_blank'>www.crcog.net</a>",
+        "MPO": "Centre County MPO",
+        "Name": "Centre Regional Planning Agency",
+        "PHONE": "(814) 231-3050",
+        "ADDRESS_1": "2643 Gateway Drive",
+        "ADDRESS_2": "State College, PA 16801",
+		"CODE": "3"
+    },
+    {
+        "LINK": "<a href='http://www.franklincountypa.gov/index.php?section=planning_fcmpo' target='_blank'>www.franklincountypa.gov</a>",
+        "MPO": "Franklin County MPO",
+        "Name": "Franklin County Planning Commission",
+        "PHONE": "(717) 261-3855",
+        "ADDRESS_1": "218 North Second Street",
+        "ADDRESS_2": "Chambersburg, PA 17201",
+		"CODE": "6"
+    },
+    {
+        "LINK": "<a href='http://www.tcrpc-pa.org/hats/' target='_blank'>www.tcrpc-pa.org</a>",
+        "MPO": "Harrisburg Area Transportation Study",
+        "Name": "Tri-County Regional Planning Commission<br>Dauphin County Veterans Memorial Building",
+        "PHONE": "(717) 234-2639",
+        "ADDRESS_1": "112 Market Street, 2nd Floor",
+        "ADDRESS_2": "Harrisburg, PA 17101",
+		"CODE": "7"
+    }, {
+        "LINK": "<a href='http://www.northerntier.org/transportation.php' target='_blank'>www.northerntier.org</a>",
+        "MPO": "Northern Tier Regional Planning and Development Commission",
+        "Name": "Northern Tier Regional Planning and Development Commission",
+        "PHONE": "(570) 265-9103",
+        "ADDRESS_1": "312 Main Street",
+        "ADDRESS_2": "Towanda, PA 18848",
+		"CODE": "14"
+    }, {
+        "LINK": "<a href='http://www.lyco.org/Departments/Planning-and-Community-Development/Transportation-Planning/Williamsport-Area-Transportation-Study' target='_blank'>www.lyco.org</a>",
+        "MPO": "Williamsport Area Transportation Study",
+        "Name": "Lycoming County Planning Commission",
+        "PHONE": "(570) 320-2132",
+        "ADDRESS_1": "48 West Third Street",
+        "ADDRESS_2": "Williamsport, PA 17701",
+		"CODE": "23"
+    }, {
+        "LINK": "<a href=' https://www.ycpc.org/157/York-Area-Metropolitan-Planning-Organiza' target='_blank'>www.ycpc.org</a>",
+        "MPO": "York MPO",
+        "Name": "York County Planning Commission",
+        "PHONE": "(717) 771-9870",
+        "ADDRESS_1": "28 East Market, 3rd Floor",
+        "ADDRESS_2": "York, PA 17401",
+		"CODE": "24"
+    }, {
+        "LINK": "<a href='http://www.dvrpc.org/' target='_blank'>www.dvrpc.org</a>",
+        "MPO": "Delaware Valley Regional Planning Commission",
+        "Name": "Delaware Valley Regional Planning Commission",
+        "PHONE": "(215) 592-1800",
+        "ADDRESS_1": "190 N. Independence Mall West, 8th Floor",
+        "ADDRESS_2": "Philadelphia, PA 19106",
+		"CODE": "4"
+    }, {
+        "LINK": "<a href='http://www.lvpc.org/transportation.html' target='_blank'>www.lvpc.org</a>",
+        "MPO": "Lehigh Valley Transportation Study",
+        "Name": "Lehigh Valley Planning Commission",
+        "PHONE": "(610) 264-4544",
+        "ADDRESS_1": "961 Marcon Blvd, Suite 310",
+        "ADDRESS_2": "Allentown, PA 18109",
+		"CODE": "11"
+    }, {
+        "LINK": "<a href='http://www.adamscounty.us/Dept/Planning/Pages/ACTPO.aspx' target='_blank'>www.adamscounty.us</a>",
+        "MPO": "Adams County MPO",
+        "Name": "Adams County Office of Planning and Development",
+        "PHONE": "(717) 337-9824",
+        "ADDRESS_1": "670 Old Harrisburg Road, Suite 100",
+        "ADDRESS_2": "Gettysburg, PA 17325",
+		"CODE": "1"
+    }, {
+        "LINK": "<a href='https://www.lancompo.org' target='_blank'>www.lancompo.org</a>",
+        "MPO": "Lancaster MPO",
+        "Name": "Lancaster County Planning Commission",
+        "PHONE": "(717) 299-8333",
+        "ADDRESS_1": "150 North Queen Street, Suite 320",
+        "ADDRESS_2": "Lancaster, PA 17603",
+		"CODE": "9"
+    }, {
+        "LINK": "<a href='http://www.nepa-alliance.org/transportation/' target='_blank'>www.nepa-alliance.org</a>",
+        "MPO": "Northeastern Pennsylvania Alliance (NEPA MPO)",
+        "Name": "Northeastern Pennsylvania Alliance",
+        "PHONE": "(570) 655-5581",
+        "ADDRESS_1": "1151 Oak Street",
+        "ADDRESS_2": "Pittston, PA 18640",
+		"CODE": "13"
+    }, {
+        "LINK": "<a href='http://www.lebcounty.org/depts/Planning/Pages/MPO.aspx' target='_blank'>www.lebcounty.org</a>",
+        "MPO": "Lebanon County MPO",
+        "Name": "Lebanon County Planning Department",
+        "PHONE": "(717) 228-4444",
+        "ADDRESS_1": "400 South 8th Street, Room 206",
+        "ADDRESS_2": "Lebanon, PA 17042",
+		"CODE": "10"
+    }, {
+        "LINK": "<a href='http://www.co.berks.pa.us/Dept/Planning/Pages/default.aspx' target='_blank'>www.co.berks.pa.us</a>",
+        "MPO": "Reading Area Transportation Study",
+        "Name": "Berks County Planning Commission",
+        "PHONE": "(610) 478-6300",
+        "ADDRESS_1": "633 Court Street, 14th Floor",
+        "ADDRESS_2": "Reading, PA 19601",
+		"CODE": "16"
+    }, {
+        "LINK": "<a href='http://www.lltsmpo.com/' target='_blank'>www.lltsmpo.com</a>",
+        "MPO": "Lackawanna Luzerne MPO",
+        "Name": "Lackawanna County Department of Planning and Economic Development",
+        "PHONE": "(570) 570-963-6830",
+        "ADDRESS_1": "123 Wyoming Avenue, 5th Floor",
+        "ADDRESS_2": "Scranton, PA 18503",
+        "Luz_Name": "Luzerne County Planning Commission<br>Suite 208, Penn Place",
+        "Luz_ADDRESS_1": "20 North Pennsylvania Ave",
+        "Luz_ADDRESS_2": "Wilkes-Barre, PA 18711",
+        "Luz_PHONE": "(570) 825-1563",
+		"CODE": "17"
+    }, {
+        "LINK": "<a href='https://www.spcregion.org/' target='_blank'>www.spcregion.org</a>",
+        "MPO": "Southwestern Pennsylvania Commission MPO",
+        "Name": "Southwestern Pennsylvania Commission",
+        "PHONE": "(412) 391-5590",
+        "ADDRESS_1": "Two Chatham Center, Suite 500<br>112 Washington Place",
+        "ADDRESS_2": "Pittsburgh, PA 15219",
+		"CODE": "21"
+    }, {
+        "LINK": "<a href='http://www.mcrpc.com/transportation/mercer-county-mpo/' target='_blank'>www.mcrpc.com</a>",
+        "MPO": "Shenango Valley Area Transportation Study MPO",
+        "Name": "Mercer County Regional Planning Commission",
+        "PHONE": "(724) 981-2412",
+        "ADDRESS_1": "2491 Highland Road",
+        "ADDRESS_2": "Hermitage, PA 16148",
+		"CODE": "19"
+    }, {
+        "LINK": "<a href='http://northwestpa.org/transportation/' target='_blank'>http://northwestpa.org</a>",
+        "MPO": "Northwest RPO",
+        "Name": "Northwest PA Regional Planning & Development Commission",
+        "PHONE": "(814) 677-4800",
+        "ADDRESS_1": "395 Seneca Street",
+        "ADDRESS_2": "Oil City, PA 16301",
+		"CODE": "15"
+    }, {
+        "LINK": "<a href='https://eriecountypa.gov/departments/planning-and-community-development/programs/metropolitan-planning-organization/' target='_blank'>www.eriecountypa.gov</a>",
+        "MPO": "Erie MPO",
+        "Name": "Erie County Planning Department",
+        "PHONE": "(814) 451-7325",
+        "ADDRESS_1": "150 East Front Street, Suite 300",
+        "ADDRESS_2": "Erie, PA 16507",
+		"CODE": "5"
+    }, {
+        "LINK": "<a href='http://www.sapdc.org/gov-non-profit/transportation-planning' target='_blank'>www.sapdc.org</a>",
+        "MPO": "Southern Alleghenies Planning and Development Commission",
+        "Name": "Southern Alleghenies Planning and Development Commission",
+        "PHONE": "(814) 949-6513",
+        "ADDRESS_1": "3 Sheraton Drive",
+        "ADDRESS_2": "Altoona, PA 16601",
+		"CODE": "20"
+    }, {
+        "LINK": "<a href='http://www.ncentral.com/trans/' target='_blank'>www.ncentral.com</a>",
+        "MPO": "North Central Pennsylvania Regional Planning and Development Commission",
+        "Name": "North Central Pennsylvania Regional Planning and Development Commission",
+        "PHONE": "(814) 773-3162",
+        "ADDRESS_1": "49 Ridgmont Drive",
+        "ADDRESS_2": "Ridgway,PA 15853",
+		"CODE": "12"
+    }, {
+        "LINK": "<a href='https://cambriaplanning.org/transportation-planning/' target='_blank'>https://cambriaplanning.org/transportation-planning/</a>",
+        "MPO": "Cambria County MPO",
+        "Name": "Cambria County Planning Commission",
+        "PHONE": "(814) 472-2106",
+        "ADDRESS_1": "401 Candlelight Drive, Suite 215",
+        "ADDRESS_2": "Ebensburg, PA 15931",
+		"CODE": "8"
+    }, {
+        "LINK": "<a href='https://www.blairplanning.org/transportation-program' target='_blank'>www.blairco.org</a>",
+        "MPO": "MPO for Blair County (Altoona MSA)",
+        "Name": "Blair County Planning Commission",
+        "PHONE": "(814) 693-2080",
+        "ADDRESS_1": "423 Allegheny Street, Suite 046",
+        "ADDRESS_2": "Hollidaysburg, PA 16648",
+		"CODE": "2"
+    }, {
+        "LINK": "<a href='https://seda-cog.org/departments/transportation/' target='_blank'>www.seda-cog.org</a>",
+        "MPO": "SEDA-Council of Governments MPO",
+        "Name": "SEDA-COG",
+        "PHONE": "(570) 524-4491",
+        "ADDRESS_1": "201 Furnace Road",
+        "ADDRESS_2": "Lewisburg, PA 17837",
+		"CODE": "18"
+    }, {
+        "LINK": "<a href='http://waynecountypa.gov' target='_blank'>http://waynecountypa.gov</a>",
+        "MPO": "Wayne County",
+        "Name": "Wayne County Department of Planning/GIS",
+        "PHONE": "(570) 253-5970",
+        "ADDRESS_1": "925 Court Street",
+        "ADDRESS_2": "Honesdale, PA 18431",
+		"CODE": "22"
+    }
+]
