@@ -696,9 +696,8 @@ blockquote cite:before {
 		background-image: url("../img/coverW3300ps.jpg"); 
 		background-attachment: inherit !important;
 		border-top: none;
-		background-size: cover;
-		background-position: center;
 		background-repeat: no-repeat;
+		background-size: 100%;
 	}
 	.cover-footer {
 		margin-top: 0px;
